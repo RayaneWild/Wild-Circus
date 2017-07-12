@@ -1,36 +1,46 @@
-body{
- margin :0; 
- background-color: #35feef;
-}
-#banner1{
+#banner {
 	display: block;
-	background-color:  #33BDC8;
+	background-color:  #7fe1ba;
 	height: 70px ;
-	width: 100%
+	width: 100%;
 }
-#menu ul {
-	float : left;
+#menu li{
+    display: inline;
 }
-
-#menu ul li {
-	margin-left: 30px; 
-	margin-bottom: 40px;
-	float : left;
-    list-style-type: none;
-
+#menu ul{
+	text-align: center;
 }
-
-
-
-#background{
- src="http://zupimages.net/up/17/28/edz2.jpg;
-
-  background-size: cover;
-  background-attachment: fixed
+a{
+    color: #0060B6;
+    text-decoration: none;
 }
-
-#STORY{
-	border :solid black : 5px;
-	height:50px;
-    width: 30px;
+a:hover{
+     color:red; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+#bannerimg{
+	width: 100%;
+}
+#story {
+	border-width:5px;
+ 	border-style:solid;
+ 	border-color:black;
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+#ticketing{
+	border-width:5px;
+ 	border-style:solid;
+ 	border-color:black;
+	height: 500px;
+}
+#ticketimg{
+	width: 300px;
+	height: 180px;
+}
+footer{
+	text-align: center;
+	width: 100%;
 }
