@@ -1,34 +1,36 @@
-body{margin::0; 
- background-color: #589391; }
+body{
+ margin :0; 
+ background-color: #35feef;
+}
 #banner1{
 	display: block;
 	background-color:  #33BDC8;
-	height:70px ;
+	height: 70px ;
 	width: 100%
-}
-
 }
 #menu ul {
 	float : left;
-
 }
 
 #menu ul li {
 	margin-left: 30px; 
 	margin-bottom: 40px;
 	float : left;
-list-style-type: none;
+    list-style-type: none;
 
 }
 
 
 
-#Visuel {
-width:100px;
-height:100px;
-}
+#background{
+ src="http://zupimages.net/up/17/28/edz2.jpg;
 
-#background:{
- src="http://zupimages.net/up/17/28/edz2.jpg" alt="" /></a>
   background-size: cover;
   background-attachment: fixed
+}
+
+#STORY{
+	border :solid black : 5px;
+	height:50px;
+    width: 30px;
+}
