@@ -1,7 +1,7 @@
-#banner {
+#banner {/
 	display: block;
 	background-color:  #7fe1ba;
-	height: 70px ;
+	height: 70px ; /* utilise des valeurs relative, c'est beaucoup mieux */
 	width: 100%;
 }
 #menu li{
@@ -26,19 +26,19 @@ a:hover{
 	border-width:5px;
  	border-style:solid;
  	border-color:black;
-	float: left;
+	float: left; /* vielle propriété CSS, elle n'est pas faite pour l'utilisation que tu fais. je te conseil d'utiliser flexBox beaucoup plus simple */
 	width: 50%;
-	height: 500px;
+	height: 500px; /* à éviter, cela va te posé des problème pour le responsive web */
 }
 #ticketing{
 	border-width:5px;
  	border-style:solid;
  	border-color:black;
-	height: 500px;
+	height: 500px; /* idem que story, pas top pour du responsive web */
 }
 #ticketimg{
-	width: 300px;
-	height: 180px;
+	width: 300px; /* encode des valeurs en absolute, faut les évité de les utillsé */
+	height: 180px; /* je je conseil d'utiliser la technologie flexBox */
 }
 footer{
 	text-align: center;
